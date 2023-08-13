@@ -1,9 +1,5 @@
-import session from './session';
-import user from './user';
-import message from './message';
+import openai from './openai';
 
 export default {
-  session,
-  user,
-  message,
+  openai
 };

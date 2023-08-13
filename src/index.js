@@ -30,9 +30,7 @@ app.use((req, res, next) => {
 
 // * Routes * //
 
-app.use('/session', routes.session);
-app.use('/users', routes.user);
-app.use('/messages', routes.message);
+app.use('/openai', routes.openai);
 
 // * Start * //
 
